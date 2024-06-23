@@ -167,6 +167,15 @@ h6 { font-size: 12px; font-weight: 600; }
 
 p { margin-top: 0; margin-bottom: 0; text-align: justify;}
 
+ p a {
+    color: black; /* Set link text color to black */
+    text-decoration: underline; /* Add underline to links */
+  }
+
+  p a:hover {
+    color: #87CEEB; /* Change link color on hover to blue (#87CEEB) */
+  }
+
 small { font-size: 90%; }
 
 blockquote { margin: 0; }
