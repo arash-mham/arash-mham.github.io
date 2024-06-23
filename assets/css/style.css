@@ -169,7 +169,8 @@ p { margin-top: 0; margin-bottom: 0; text-align: justify;}
 
  p a {
     color: black; /* Set link text color to black */
-    text-decoration: underline; /* Add underline to links */
+    text-decoration: underline dotted; /* Add underline to links */
+    text-decoration-color:  #87CEEB;
   }
 
   p a:hover {
